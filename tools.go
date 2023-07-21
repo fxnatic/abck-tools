@@ -112,3 +112,16 @@ func Rir(t int, a int, e int, n int) int {
 	}
 	return t
 }
+
+func ExtractKeys(bm_sz string) ([]int, error) {
+	splitBmCookie := strings.Split(bm_sz, "~")
+	key1, err := strconv.Atoi(splitBmCookie[len(splitBmCookie)-2])
+	if err != nil {
+		return nil, err
+	}
+	key2, err := strconv.Atoi(splitBmCookie[len(splitBmCookie)-1])
+	if err != nil {
+		return nil, err
+	}
+	return []int{key1, key2}, nil
+}

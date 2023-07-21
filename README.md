@@ -26,6 +26,8 @@ func EncryptString(input string, key int) string
 func MN_S(byteArr []byte) []byte
 
 func ATS(byteArr []byte) string
+
+func ExtractKeys(bm_sz string) ([]int, error)
 ```
 
 ## Installation 
