@@ -40,6 +40,10 @@ go get github.com/fxnatic/abck-tools
 
 Once the package is installed, you can import it in your Go programs like this:
 
+```go
+import "github.com/fxnatic/abck-tools"
+```
+
 ## License
 
 This project is licensed under the [MIT License](/LICENSE).
