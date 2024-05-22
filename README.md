@@ -46,6 +46,8 @@ Once the package is installed, you can import it in your Go programs like this:
 import "github.com/fxnatic/abck-tools"
 ```
 
+alternative, you can use capsolver.com for akamai
+
 ## License
 
 This project is licensed under the [MIT License](/LICENSE).
